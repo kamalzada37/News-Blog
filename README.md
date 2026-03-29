@@ -18,6 +18,7 @@ Travelers Blog is a web application built with Node.js, Express.js, EJS, and Mon
 - **Environment Management:** dotenv
 
 ## Project Structure
+
 ```text
 project/
 ├── .env                 # Environment variables such as API keys and MongoDB URI
@@ -35,6 +36,8 @@ project/
 │   ├── main.ejs         # Main page after login
 │   ├── navbar.ejs       # Shared navigation bar
 │   └── signup.ejs       # Signup page
+
+```
 
 ## Requirements
 

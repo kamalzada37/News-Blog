@@ -36,7 +36,7 @@ project/
 │   ├── navbar.ejs       # Shared navigation bar
 │   └── signup.ejs       # Signup page
 
-Requirements
+## Requirements
 
 Before running the project, make sure you have installed:
 
@@ -86,21 +86,24 @@ Password: 12345
 
 For security, hardcoded credentials should be replaced with environment variables or securely stored user records in production.
 
-Design Choices
+## Design Choices
 EJS is used as the templating engine to render dynamic HTML pages.
 Express.js handles routing, middleware, and server-side logic.
 The project structure separates views and server logic to keep the application organized and easier to maintain.
 Shared components such as the navbar and footer provide a consistent user experience across all pages.
-Notes
+
+## Notes
 Make sure MongoDB is running if you are using a local database.
 Check that all API keys in the .env file are valid.
 Do not upload your .env file to GitHub.
-Future Improvements
+
+##Future Improvements
 Add password hashing with bcrypt
 Add role-based authorization
 Improve admin dashboard features
 Add error handling and validation messages
 Deploy the application online
-Acknowledgments
+
+## Acknowledgments
 
 Thanks to all resources and contributors that supported the development of this project.
